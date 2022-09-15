@@ -16,5 +16,13 @@
 
 }
 
+.purple__button {
+    background: rgb(247,97,107);
+    background: linear-gradient(270deg, rgba(247,97,107,1) 0%, rgba(182,36,110,1) 100%);
+    border-radius: 30px;
+    text-align: center;
+}
+
 $--main-color: #fff;
 $--second-color: #000;
+$--blue-color:#03A7D3A6;

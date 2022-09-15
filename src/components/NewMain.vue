@@ -3,7 +3,7 @@
         <li>
             <MainHero />
         </li>
-        <li class="white">
+        <li>
             <MainDo />
         </li>
         <li>
