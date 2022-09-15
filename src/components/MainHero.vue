@@ -1,6 +1,6 @@
 <template>
     <div class="">
-  <h2 class="container">MainBody</h2>
+  <h2 class="container">MainHero</h2>
     </div>
   </template>
   

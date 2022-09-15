@@ -15,7 +15,7 @@
   @import "../style/general.scss";
   h2{
     height: 250px;
-    color: $--main-color;
+    color: $--second-color;
   }
  
   </style>
