@@ -16,6 +16,7 @@
   h2{
     height: 250px;
     color: $--main-color;
+  
   }
  
   </style>
