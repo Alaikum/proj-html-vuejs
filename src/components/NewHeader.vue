@@ -4,7 +4,7 @@
             <figure>
                 <img src="../assets/white-logo-2.png" alt="">
             </figure>
-            <ul>
+            <ul class="common__text">
                 <li class="active">Home</li>
                 <li>About</li>
                 <li>Services</li>
@@ -40,14 +40,14 @@ export default {
         margin-left: auto;
         display: flex;
         gap: 25px;
-        font-size: 18px;
+        // font-size: 18px;
         font-weight: 600;
         justify-content: center;
         align-items: center;
 
-        .active{
-            color:#F9636B;
-           
+        .active {
+            color: $--purple-color;
+
         }
 
         .blue__button {

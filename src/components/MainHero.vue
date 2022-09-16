@@ -6,10 +6,10 @@
                 <span>Digital Technology</span>
                 <h3>Modern Solution!</h3>
             </div>
-            <p class="text__hero">When, while the lovely valley teems with vapour around<br> meand the meridian sun
+            <p class="text__hero common__text">When, while the lovely valley teems with vapour around<br> meand the meridian sun
                 strikes
                 the upper surface</p>
-            <div class="button">
+            <div class="button common__text">
                 <p class="purple__button">Try It Now</p>
                 <p class="blue__button">Explore More</p>
             </div>
@@ -55,13 +55,13 @@ export default {
             color: $--blue-color;
             padding-top: 60px;
             padding-bottom: 70px;
-            font-size: 18px;
+            // font-size: 18px;
         }
 
         .button {
             display: flex;
             gap: 25px;
-            font-size: 18px;
+            // font-size: 18px;
             height: 50px;
 
             p {
