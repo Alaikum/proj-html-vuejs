@@ -2,7 +2,7 @@
   <div class="container">
     <div class="do__title">
       <p class="purple common__text">Our Services</p>
-      <p class="do__main_title"><span>What</span>We Do</p>
+      <p class="do__main_title"><span>What </span>We Do</p>
       <p class="common__text">When, whole the lovely vallet teems with vapour around meand the</p>
     </div>
 
