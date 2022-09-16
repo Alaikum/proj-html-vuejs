@@ -7,6 +7,11 @@
     background: rgb(10, 24, 82);
 }
 
+.background__color__white__gradient {
+    background: rgb(241, 241, 241);
+    background: linear-gradient(0deg, rgba(241, 241, 241, 1) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
 .blue__button {
     background: rgb(4, 165, 209);
     background: linear-gradient(90deg, rgba(4, 165, 209, 1) 0%, rgba(29, 66, 133, 1) 100%);
@@ -24,6 +29,15 @@
     text-align: center;
     color: white;
 }
+
+.white__button {
+   background: white;
+    border-radius: 30px;
+    text-align: center;
+    color:  rgb(247, 97, 107);
+}
+
+
 
 $--main-color: #fff;
 $--second-color: #000;
