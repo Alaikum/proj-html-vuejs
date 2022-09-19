@@ -64,6 +64,7 @@ export default {
     gap: 155px;
     padding: 165px 80px 210px;
     
+    
   }
 
   .button {

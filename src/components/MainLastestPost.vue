@@ -89,6 +89,9 @@ export default {
       width: 170px;
       height: 60px;
       padding-top: 18px;
+      &:hover{
+        color: white;
+      }
   
     }
 

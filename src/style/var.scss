@@ -18,6 +18,11 @@
     border-radius: 30px;
     text-align: center;
     color: white;
+    cursor: pointer;
+    &:hover{
+        background: rgb(247, 97, 107);
+    background: linear-gradient(270deg, rgba(247, 97, 107, 1) 0%, rgba(182, 36, 110, 1) 100%);
+    }
 
 
 }
@@ -28,6 +33,12 @@
     border-radius: 30px;
     text-align: center;
     color: white;
+    cursor: pointer;
+    &:hover{
+        background: rgb(4, 165, 209);
+        background: linear-gradient(90deg, rgba(4, 165, 209, 1) 0%, rgba(29, 66, 133, 1) 100%);
+
+    }
 }
 
 .white__button {
@@ -35,6 +46,12 @@
     border-radius: 30px;
     text-align: center;
     color: rgb(247, 97, 107);
+    cursor: pointer;
+    &:hover{
+       background-color: black;
+       color: white;
+
+    }
 }
 
 

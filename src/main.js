@@ -13,16 +13,17 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 /* import specific icons */
 import { faArrowRightLong } from '@fortawesome/free-solid-svg-icons'
-
-/* add icons to the library */
-library.add(faArrowRightLong)
-
-/* import specific icons */
+import {faArrowLeftLong} from '@fortawesome/free-solid-svg-icons'
 import { faUserSecret,faStar } from '@fortawesome/free-solid-svg-icons'
 import { faStar as farStar } from '@fortawesome/free-regular-svg-icons'
 
 /* add icons to the library */
+library.add(faArrowRightLong, faArrowLeftLong)
 library.add(faUserSecret,faStar,farStar)
+
+
+
+
 
 /* add font awesome icon component */
 Vue.component('font-awesome-icon', FontAwesomeIcon)
