@@ -58,6 +58,7 @@ height: 800px;
 .post__ourPrice {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  gap: 55px;
   text-align: center;
   position: absolute;
 }
