@@ -1,6 +1,6 @@
 <template>
   <div class="background__color__white__gradient">
-    <div class="container">
+    <div class="container constainer__lastest">
       <div class="lastest__title">
         <p class="purple common__text">Blog</p>
         <p class="lastest__main_title"><span>Lastest </span>Posts</p>
@@ -15,30 +15,32 @@
             <p class="text__button">
               When, while the lovely valley teems with vapour around me,and the meridian sun s ...
             </p>
-            <p class="white__button"> Read More</p>
+            <p class="white__button button"> Read More</p>
           </div>
         </div>
         <div class="small__img">
           <p>April 21.2019 . by Paul</p>
           <h4 class="title__img">Clearing Corporations get SEBI nod to invest in overnight funds</h4>
           <p> When, while the lovely valley teems with vapour around me,and the meridian sun s ...</p>
-          <p class="white__button small__img-button">Read More</p>
+          <p class="white__button small__img-button button">Read More</p>
         </div>
         <div class="small__img">
           <p>April 21.2019 . by Paul</p>
           <h4 class="title__img">Shabnam Dhilion, wife of RSSB chief Gurinder Dhillon, passes away in London</h4>
           <p> When, while the lovely valley teems with vapour around me,and the meridian sun s ...</p>
-          <p class="white__button small__img-button">Read More</p>
+          <p class="white__button small__img-button button">Read More</p>
         </div>
       </div>
 
     </div>
+    <PeopleSay/>
   </div>
 </template>
   
 <script>
+import PeopleSay from './PeopleSay.vue';
 export default {
-
+    components: { PeopleSay }
 }
 </script>
   
@@ -46,7 +48,7 @@ export default {
 <style scoped lang="scss">
 @import "../style/general.scss";
 
-.container {
+.constainer__lastest {
   padding-top: 520px;
   color: $--second-color;
 
@@ -82,6 +84,13 @@ export default {
       font-size: 20px;
     }
 
+    .button{
+      color: $--second-color;
+      width: 170px;
+      height: 60px;
+      padding-top: 18px;
+  
+    }
 
     .big__img {
 
